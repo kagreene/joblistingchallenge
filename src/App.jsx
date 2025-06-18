@@ -45,7 +45,7 @@ function App() {
   return (
     <div className="App">
       <header className='page-header'>
-        <img src="/images/bg-header-desktop.svg" alt="Header Background" className="header-bg" />
+        <img src='./images/bg-header-desktop.svg' alt="Header Background" className="header-bg" />
       </header>
       <div className="job-listings-container">
          {filters.length > 0 && (
